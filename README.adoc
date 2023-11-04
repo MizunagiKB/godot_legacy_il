@@ -1,0 +1,66 @@
+= Legacy ImageLoader
+:encoding: utf-8
+:lang: ja
+:author: MizunagiKB <mizukb@live.jp>
+:copyright: 2023 MizunagiKB
+:doctype: book
+:nofooter:
+:toc:
+:toclevels: 3
+:source-highlighter: highlight.js
+:experimental:
+:icons: font
+
+
+== About LegacyIL
+
+このプラグインは過去流通した画像形式を Godot Engine で扱える様にするための Plugin です。
+
+当時のドキュメントを入手する方法は link:https://www.vector.co.jp/[Vector] や個人のウェブサイトに残っているだけのものが多いです。
+
+そのため、正しくライセンスを扱うことが出来なかったり、個人情報保護の観点から GitHub にアップロードすることが難しいものがあります。
+
+各種資料については、関連情報に列挙しておきました。
+
+
+=== 対応している画像形式
+
+現時点で以下のフォーマットに対応していますが、差分ロードや4の倍数になっていない画像を正しく展開できないといった不具合がいくつか残っています。
+
+[cols="4,^1,1",frame=none,grid=none]
+|===
+|Format name |Extensions |Colors
+
+|Hyper Graphic compress format 
+^|HG
+a|
+* 16(o)
+
+|Pi format 
+^|PI
+a|
+* 16(o)
+* 256(x)
+
+|MAKIchan Graphic loader is not 鮪だ！
+^|MAG
+a|
+* 16(o)
+* 256(x)
+
+|===
+
+
+== 関連情報
+
+* HG
+** https://www.vector.co.jp/soft/dl/dos/art/se023765.html[Hyper Graphic press (Vector)]
+* PIC
+** https://www.vector.co.jp/soft/data/art/se003198.html[PIC_FMT]
+* PI
+** https://www.vector.co.jp/soft/data/art/se003018.html[PITECH.TXT (Vector)]
+** https://www.vector.co.jp/vpack/filearea/dos/art/graphics/loader/pi[Pi (Vector)]
+** https://ja.wikipedia.org/wiki/Pi_(%E7%94%BB%E5%83%8F%E5%9C%A7%E7%B8%AE)[PI Format (Wikipedia)]
+* MAG
+** http://metanest.jp/mag/mag.xhtml[鮪フォーマット解説]
+** https://ja.wikipedia.org/wiki/MAG%E3%83%95%E3%82%A9%E3%83%BC%E3%83%9E%E3%83%83%E3%83%88[MAG Format (Wikipedia)]
