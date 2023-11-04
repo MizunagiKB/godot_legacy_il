@@ -36,14 +36,14 @@
 a|
 * 16(o)
 
-|Pi format 
-^|PI
+|MAKIchan Graphic loader is not 鮪だ！
+^|MAG
 a|
 * 16(o)
 * 256(x)
 
-|MAKIchan Graphic loader is not 鮪だ！
-^|MAG
+|Pi format
+^|PI
 a|
 * 16(o)
 * 256(x)
