@@ -1,4 +1,4 @@
-= Legacy ImageLoader for Godot
+= Legacy Image Loader for Godot
 :encoding: utf-8
 :lang: ja
 :author: MizunagiKB <mizukb@live.jp>
